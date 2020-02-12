@@ -7,3 +7,58 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.displayParent {
+  height: 200px;
+}
+
+.hideWord {
+  height: 0px;
+}
+
+p {
+  font-size: 50px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+}
+
+.letterBox {
+  opacity: 0;
+}
+
+.actualLetter {
+  margin-bottom: 0px;
+}
+
+.hideLetter {
+  margin-top: 0px;
+}
+
+.buttons {
+  font-size: 30px;
+}
+
+#letters {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+}

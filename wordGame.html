@@ -8,11 +8,23 @@
     <link rel="stylesheet" type="text/css" href="./wordGame.css" />
   </head>
   <body>
+    <h1>Hang Man</h1>
+    <div class="displayParent">
+      <div class="box displayWord"></div>
+      <div class="box hideWord"></div>
+    </div>
+    <div id="letters"></div>
+    <h3>Turns remaining: 0</h3>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+    <script src="./common-words.js"></script>
+    <script src="./player.js"></script>
+    <script src="./letter.js"></script>
+    <script src="./gameSetUp.js"></script>
+
     <script src="./wordGame.js"></script>
   </body>
 </html>

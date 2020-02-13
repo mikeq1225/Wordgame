@@ -5,6 +5,7 @@ var randomWord = words3[Math.floor(Math.random() * words3.length)].toUpperCase()
 
 var space = "_"
 var newWord = randomWord.toUpperCase().split("")
+
 var displayWord = newWord
   .map(function() {
     return space

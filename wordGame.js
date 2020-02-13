@@ -1,6 +1,7 @@
 $(document).ready(function() {
   letters()
-  // wordSelector()
+  //wordSelector()
+
   var word = displayWord
   var lives = 8
   var guess = ""
@@ -29,8 +30,19 @@ $(document).ready(function() {
     }
 
     if (lives == 0) {
-      $("#letters").html("GAME OVER")
+      $("#letters").html("GAME OVER!!!!!!!!!!!!")
     }
+
+    // $("#reset").on("click", function(e) {
+    //   reset()
+    // })
+
+    // function reset() {
+    //   var guess = ""
+    //   var lives = 8
+    //   letters()
+    //   wordSelector()
+    // }
 
     $(".displayWord").html(word)
     $(".lives").html(`Turns remaining: ${lives}`)

@@ -9,12 +9,17 @@
   </head>
   <body>
     <h1>Hang Man</h1>
-    <div class="displayParent">
-      <div class="box displayWord"></div>
-      <div class="box hideWord"></div>
+    <div class="displayParent"></div>
+    <div>
+      <div class="displayWord"></div>
     </div>
     <div id="letters"></div>
-    <h3>Turns remaining: 0</h3>
+    <h3 class="lives">Turns remaining: 8</h3>
+    <div class="resetHolder">
+      <a href="./wordGame.html">
+        <button id="reset">New Game</button>
+      </a>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -23,8 +28,7 @@
     <script src="./common-words.js"></script>
     <script src="./player.js"></script>
     <script src="./letter.js"></script>
-    <script src="./gameSetUp.js"></script>
-
+    <script src="./wordSelector.js"></script>
     <script src="./wordGame.js"></script>
   </body>
 </html>

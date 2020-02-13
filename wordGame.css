@@ -16,19 +16,17 @@ h1 {
   text-align: center;
 }
 
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
 .displayParent {
-  height: 200px;
+  height: 100px;
 }
 
-.hideWord {
-  height: 0px;
+.displayWord {
+  height: 75px;
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 40px;
+  padding-top: 30px;
+  margin-bottom: 15px;
 }
 
 p {
@@ -38,16 +36,8 @@ p {
   text-align: center;
 }
 
-.letterBox {
-  opacity: 0;
-}
-
 .actualLetter {
   margin-bottom: 0px;
-}
-
-.hideLetter {
-  margin-top: 0px;
 }
 
 .buttons {
@@ -61,4 +51,18 @@ p {
 
 h3 {
   text-align: center;
+}
+
+.resetHolder {
+  display: flex;
+  justify-content: center;
+}
+
+#reset {
+  text-align: center;
+  width: 120px;
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
 }
